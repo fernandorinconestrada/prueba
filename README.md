@@ -28,3 +28,16 @@ The following are excluded from version control:
 ```bash
 python src/prueba/main.py
 ```
+
+## Project Structure
+
+```
+prueba/
+├── .venv/              # virtual environment
+├── .gitignore
+├── pyproject.toml      # project metadata and dependencies
+└── src/
+    └── prueba/
+        ├── __init__.py
+        └── main.py
+```
