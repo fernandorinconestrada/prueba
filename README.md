@@ -14,6 +14,15 @@ source .venv/bin/activate
 pip install pandas
 ```
 
+## .gitignore
+
+The following are excluded from version control:
+
+- `.venv/` — virtual environment
+- `__pycache__/` — Python bytecode
+- `*.pyc` — compiled Python files
+- `.DS_Store` — macOS metadata
+
 ## Run
 
 ```bash
